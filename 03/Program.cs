@@ -31,7 +31,7 @@ namespace _03
                 }
                 else if (LitrosVendidos >= 5)
                 {
-                    CalculoDesconto = 0.03 * ValorPorLitro;
+                    CalculoDesconto = 0.05 * ValorPorLitro;
                     ValorFinal = ValorPorLitro - CalculoDesconto;
                     Console.WriteLine($"Valor a ser pago = {ValorFinal}");
                 }
