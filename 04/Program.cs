@@ -6,10 +6,6 @@ namespace _04
     {
         static void Main(string[] args)
         {
-            //A idade permitida para doar sangue é entre 18 e 67 anos. Faça um
-            //aplicativo que pergunte a idade de uma pessoa e diga se ela pode doar
-            //sangue ou não. Use alguns dos operadores lógicos OU (||) e E (&&).
-
             Console.WriteLine("Bem vindo ao polo de doação se sangue!" + "\n");
             Console.WriteLine("Informe sua idade: ");
             Console.WriteLine();
