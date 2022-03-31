@@ -17,7 +17,7 @@ namespace _03
             string SucoVendido = Console.ReadLine();
             System.Console.WriteLine("Digite a quantidade de Litros que deseja comprar: ");
             double LitrosVendidos = double.Parse(Console.ReadLine());
-            double ValorPorLitro = LitrosVendidos + 5;
+            double ValorPorLitro = LitrosVendidos * 5;
             double CalculoDesconto;
             double ValorFinal;
 
